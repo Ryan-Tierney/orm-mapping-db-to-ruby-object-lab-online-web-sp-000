@@ -37,7 +37,7 @@ class Student
     sql = <<-SQL
       SELECT *
       FROM students 
-      WHERE grade = all_students_in_grade_9
+      WHERE grade = 9
       SQL
       
       DB[:conn].execute(sql).map do |row|
