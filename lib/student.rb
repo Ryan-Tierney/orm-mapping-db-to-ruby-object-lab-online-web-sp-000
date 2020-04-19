@@ -5,7 +5,7 @@ class Student
      student.new 
      id = id.new
      name = name.new
-     grade = grade.new
+     
   end
 
   def self.all
