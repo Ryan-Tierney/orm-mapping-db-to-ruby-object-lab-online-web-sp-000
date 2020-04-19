@@ -3,6 +3,9 @@ class Student
 
   def self.new_from_db(row)
      student.new 
+     id = id.new
+     name = name.new
+     grade = grade.new
   end
 
   def self.all
