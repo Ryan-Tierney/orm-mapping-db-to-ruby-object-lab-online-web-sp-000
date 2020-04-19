@@ -2,10 +2,10 @@ class Student
   attr_accessor :id, :name, :grade
 
   def self.new_from_db(row)
-     student.new 
-     id = id.new
-     name = name.new
-     
+     new_student = self.new 
+     new_student.id = id.new
+     new_student.name = name.new
+     new_student.grade = 
   end
 
   def self.all
